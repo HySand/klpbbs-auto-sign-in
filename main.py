@@ -22,7 +22,7 @@ switch_user = int(os.environ.get("SWITCH_USER") or 0)
 renewal_vip = int(os.environ.get("RENEWAL_VIP") or 0)
 renewal_svip = int(os.environ.get("RENEWAL_SVIP") or 0)
 
-klpbbs_ip = os.environ.get("KLPBBS_IP", "")
+klpbbs_ip = os.environ.get("KLPBBS_IP", "123.254.109.11")
 debug = int(os.environ.get("DEBUG") or 0)
 
 mail_enable = int(os.environ.get("MAIL_ENABLE") or 0)
